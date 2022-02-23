@@ -5,13 +5,13 @@
 }
 
 
+/* Imagen logo */
 .image-mama img {
     width: 100%;
     height: 600px;
 }
 
-
-
+/* Tarjetas */
 .container-tarjetas {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -22,12 +22,13 @@
     justify-content:space-around;
 }
 
-
-.nueva-publicidad {
-     display: grid;
-     grid-template-columns: repeat(4, 1fr);
-     
+/* Transformacion  imagenes */
+.image-hover:hover {
+    transition: all 2s;
+    transform: scale(1.5);
+    
 }
+
 
 .publicidad-dos {
     display: flex;
@@ -68,12 +69,16 @@
     margin-bottom: 10px;
 }
 
-.imagen-rss:hover {
-    animation:infinite;
+/* Transformacion */
+
+.imagen-rss img:hover {
+    transition: all 2s;
+    transform: scale(1.5);
 }
 
 .style-main {
     background-color:antiquewhite;
+    
 }
 
 
